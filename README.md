@@ -9,6 +9,9 @@
  1.LXBaseScrollController ，此类事vc的基类，处理了scrollView的子视图的由上而下布局问题，使用起来，只需要继承就可以了，以后会通过分类的方式来试下方便解耦。
  
  2.LXBaseItemModel，这个类是最关键的，后续编码中虽然不需要去实现它的内容，确实用经常用到，它的作用就是视图item的一个管理器，糅合了data和controller之间的联系，可以通过设置它的一下属性来为item添加属性：
+ 
+ ```Object-C
+ 
  @interface LXBaseItemModel : NSObject
 
 
@@ -33,7 +36,7 @@
 + (LXBaseItemModel * (^)(void))makeItemModel;
 
 @end
-
+```
 3. LXBaseItem ， 此类事所有item的基类，只需要继承即可，里面简单添加了一个公共响应的点击事件，以及一个回调事件的block，这里考虑到代码的简洁性，没有使用delegate的方式
 
 最后，用起来也很简单，只需要在继承viewController类实现 constructItems方法就可以了：
