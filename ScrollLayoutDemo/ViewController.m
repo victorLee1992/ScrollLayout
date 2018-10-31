@@ -7,14 +7,21 @@
 //
 
 #import "ViewController.h"
-
+#import "TestController.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)letsGoAction:(id)sender {
+    
+    [self.navigationController pushViewController:[TestController new] animated:true];
+    
+}
 
 - (void)viewDidLoad {
+    
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }

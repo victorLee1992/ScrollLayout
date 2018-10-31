@@ -13,6 +13,16 @@
 		294CF99F2181A7A8009EE3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294CF99E2181A7A8009EE3C6 /* Assets.xcassets */; };
 		294CF9A22181A7A8009EE3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294CF9A02181A7A8009EE3C6 /* LaunchScreen.storyboard */; };
 		294CF9A52181A7A8009EE3C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9A42181A7A8009EE3C6 /* main.m */; };
+		294CF9B62181A7ED009EE3C6 /* LXBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9AC2181A7ED009EE3C6 /* LXBaseDataModel.m */; };
+		294CF9B72181A7ED009EE3C6 /* LXBaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9B22181A7ED009EE3C6 /* LXBaseItem.m */; };
+		294CF9B82181A7ED009EE3C6 /* LXBaseItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9B32181A7ED009EE3C6 /* LXBaseItemModel.m */; };
+		294CF9BD2181A864009EE3C6 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9BC2181A864009EE3C6 /* TestController.m */; };
+		294CF9BF2181A9B2009EE3C6 /* LXBaseScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9BE2181A9B2009EE3C6 /* LXBaseScrollController.m */; };
+		294CF9C42181B73B009EE3C6 /* CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9C32181B73B009EE3C6 /* CustomItem.m */; };
+		294CF9C82181BD28009EE3C6 /* ChangeHeightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CF9C72181BD28009EE3C6 /* ChangeHeightItem.m */; };
+		299829602182ACB40022602F /* AsynLoadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2998295F2182ACB40022602F /* AsynLoadItem.m */; };
+		299829632182EE810022602F /* CallbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 299829622182EE810022602F /* CallbackItem.m */; };
+		C779F4C2F234E874620FCECF /* libPods-ScrollLayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8333F7AFB53723E1D01C108 /* libPods-ScrollLayoutDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,29 @@
 		294CF9A12181A7A8009EE3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		294CF9A32181A7A8009EE3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		294CF9A42181A7A8009EE3C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		294CF9AC2181A7ED009EE3C6 /* LXBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseDataModel.m; sourceTree = "<group>"; };
+		294CF9AD2181A7ED009EE3C6 /* LXBaseItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseItemModel.h; sourceTree = "<group>"; };
+		294CF9AE2181A7ED009EE3C6 /* LXBaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseItem.h; sourceTree = "<group>"; };
+		294CF9AF2181A7ED009EE3C6 /* LXBaseScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseScrollController.h; sourceTree = "<group>"; };
+		294CF9B12181A7ED009EE3C6 /* LXBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXBaseDataModel.h; sourceTree = "<group>"; };
+		294CF9B22181A7ED009EE3C6 /* LXBaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseItem.m; sourceTree = "<group>"; };
+		294CF9B32181A7ED009EE3C6 /* LXBaseItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseItemModel.m; sourceTree = "<group>"; };
+		294CF9BB2181A864009EE3C6 /* TestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		294CF9BC2181A864009EE3C6 /* TestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		294CF9BE2181A9B2009EE3C6 /* LXBaseScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXBaseScrollController.m; sourceTree = "<group>"; };
+		294CF9C02181AAF4009EE3C6 /* LXScrollLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXScrollLayout.h; sourceTree = "<group>"; };
+		294CF9C12181B126009EE3C6 /* LXScrollLayoutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXScrollLayoutProtocol.h; sourceTree = "<group>"; };
+		294CF9C22181B73B009EE3C6 /* CustomItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomItem.h; sourceTree = "<group>"; };
+		294CF9C32181B73B009EE3C6 /* CustomItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomItem.m; sourceTree = "<group>"; };
+		294CF9C62181BD28009EE3C6 /* ChangeHeightItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeHeightItem.h; sourceTree = "<group>"; };
+		294CF9C72181BD28009EE3C6 /* ChangeHeightItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeHeightItem.m; sourceTree = "<group>"; };
+		2998295E2182ACB40022602F /* AsynLoadItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsynLoadItem.h; sourceTree = "<group>"; };
+		2998295F2182ACB40022602F /* AsynLoadItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynLoadItem.m; sourceTree = "<group>"; };
+		299829612182EE810022602F /* CallbackItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackItem.h; sourceTree = "<group>"; };
+		299829622182EE810022602F /* CallbackItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackItem.m; sourceTree = "<group>"; };
+		B8333F7AFB53723E1D01C108 /* libPods-ScrollLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAC3D1C6729B0E9C132BDB2 /* Pods-ScrollLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLayoutDemo/Pods-ScrollLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7CA8CC3CB15B216CA52C993 /* Pods-ScrollLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLayoutDemo/Pods-ScrollLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C779F4C2F234E874620FCECF /* libPods-ScrollLayoutDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +78,8 @@
 			children = (
 				294CF9942181A7A6009EE3C6 /* ScrollLayoutDemo */,
 				294CF9932181A7A6009EE3C6 /* Products */,
+				A0841E44FD608676A593BB4A /* Pods */,
+				FDDEF838B7891A70D37ECC9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +98,8 @@
 				294CF9962181A7A6009EE3C6 /* AppDelegate.m */,
 				294CF9982181A7A6009EE3C6 /* ViewController.h */,
 				294CF9992181A7A6009EE3C6 /* ViewController.m */,
+				294CF9C52181B99D009EE3C6 /* TestCodes */,
+				294CF9AB2181A7ED009EE3C6 /* Lib */,
 				294CF99B2181A7A6009EE3C6 /* Main.storyboard */,
 				294CF99E2181A7A8009EE3C6 /* Assets.xcassets */,
 				294CF9A02181A7A8009EE3C6 /* LaunchScreen.storyboard */,
@@ -71,6 +109,57 @@
 			path = ScrollLayoutDemo;
 			sourceTree = "<group>";
 		};
+		294CF9AB2181A7ED009EE3C6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				294CF9B12181A7ED009EE3C6 /* LXBaseDataModel.h */,
+				294CF9AC2181A7ED009EE3C6 /* LXBaseDataModel.m */,
+				294CF9AF2181A7ED009EE3C6 /* LXBaseScrollController.h */,
+				294CF9BE2181A9B2009EE3C6 /* LXBaseScrollController.m */,
+				294CF9AD2181A7ED009EE3C6 /* LXBaseItemModel.h */,
+				294CF9B32181A7ED009EE3C6 /* LXBaseItemModel.m */,
+				294CF9AE2181A7ED009EE3C6 /* LXBaseItem.h */,
+				294CF9B22181A7ED009EE3C6 /* LXBaseItem.m */,
+				294CF9C12181B126009EE3C6 /* LXScrollLayoutProtocol.h */,
+				294CF9C02181AAF4009EE3C6 /* LXScrollLayout.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		294CF9C52181B99D009EE3C6 /* TestCodes */ = {
+			isa = PBXGroup;
+			children = (
+				294CF9BB2181A864009EE3C6 /* TestController.h */,
+				294CF9BC2181A864009EE3C6 /* TestController.m */,
+				294CF9C22181B73B009EE3C6 /* CustomItem.h */,
+				294CF9C32181B73B009EE3C6 /* CustomItem.m */,
+				294CF9C62181BD28009EE3C6 /* ChangeHeightItem.h */,
+				294CF9C72181BD28009EE3C6 /* ChangeHeightItem.m */,
+				2998295E2182ACB40022602F /* AsynLoadItem.h */,
+				2998295F2182ACB40022602F /* AsynLoadItem.m */,
+				299829612182EE810022602F /* CallbackItem.h */,
+				299829622182EE810022602F /* CallbackItem.m */,
+			);
+			path = TestCodes;
+			sourceTree = "<group>";
+		};
+		A0841E44FD608676A593BB4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA8CC3CB15B216CA52C993 /* Pods-ScrollLayoutDemo.debug.xcconfig */,
+				DBAC3D1C6729B0E9C132BDB2 /* Pods-ScrollLayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDDEF838B7891A70D37ECC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8333F7AFB53723E1D01C108 /* libPods-ScrollLayoutDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 294CF9A82181A7A8009EE3C6 /* Build configuration list for PBXNativeTarget "ScrollLayoutDemo" */;
 			buildPhases = (
+				DD3D65FC4D1E06A14BAB820A /* [CP] Check Pods Manifest.lock */,
 				294CF98E2181A7A6009EE3C6 /* Sources */,
 				294CF98F2181A7A6009EE3C6 /* Frameworks */,
 				294CF9902181A7A6009EE3C6 /* Resources */,
@@ -136,14 +226,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DD3D65FC4D1E06A14BAB820A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollLayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		294CF98E2181A7A6009EE3C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294CF9C42181B73B009EE3C6 /* CustomItem.m in Sources */,
+				299829632182EE810022602F /* CallbackItem.m in Sources */,
+				294CF9B72181A7ED009EE3C6 /* LXBaseItem.m in Sources */,
+				294CF9BD2181A864009EE3C6 /* TestController.m in Sources */,
+				299829602182ACB40022602F /* AsynLoadItem.m in Sources */,
 				294CF99A2181A7A6009EE3C6 /* ViewController.m in Sources */,
 				294CF9A52181A7A8009EE3C6 /* main.m in Sources */,
+				294CF9B62181A7ED009EE3C6 /* LXBaseDataModel.m in Sources */,
+				294CF9BF2181A9B2009EE3C6 /* LXBaseScrollController.m in Sources */,
 				294CF9972181A7A6009EE3C6 /* AppDelegate.m in Sources */,
+				294CF9B82181A7ED009EE3C6 /* LXBaseItemModel.m in Sources */,
+				294CF9C82181BD28009EE3C6 /* ChangeHeightItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +401,7 @@
 		};
 		294CF9A92181A7A8009EE3C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CA8CC3CB15B216CA52C993 /* Pods-ScrollLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +419,7 @@
 		};
 		294CF9AA2181A7A8009EE3C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAC3D1C6729B0E9C132BDB2 /* Pods-ScrollLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
